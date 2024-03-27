@@ -1,121 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
+    <title>anikk.github.io</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .content {
+            max-width: 960px;
+            margin: 0 auto;
+            margin-bottom: 100px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .links-bar {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .contacts-address {
+            font-size: 1em;
+        }
+
+        .bio-text {
+            /* font-family: 'Times New Roman', Times, serif; */
+            text-align: center;
+        }
+
+        .page-heading {
+            font-size: 1.2em;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .footer {
+            /* position: fixed; */
+            padding: 10px;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: rgb(239, 237, 237);
+            color: white;
+            text-align: center;
+            margin-top: auto;
+            color: black;
+            font-family: 'Courier New', Courier, monospace;
+
+        }
+    </style>
 </head>
+
 <body>
-    <h1 align="center">Anirudh Krishnan Komaralingam</h1>
-    <table style="border: 1px solid #ddd; align: center;">
-        <tr>
-            <th>anikk.umd@gmail.com</th>
-            <th>github.com/anikk94</th>
-            <th>linkedin.com/in/anikk94</th>
-            <th>+1(240)-413 5766</th>
-        </tr>
+    <div class="content">
 
+        <div class="page-heading" align="center">
+            <!-- <h1 align="center">Anirudh Krishnan Komaralingam</h1> -->
+            <h1>
+                <pre>Anirudh Krishnan Komaralingam</pre>
+            </h1>
+        </div>
+
+        <div class="page-subheading" align="center">
+            <p class="contacts-address">9409 Eagleton Ln, Gaithersburg, MD</p>
+            <p class="contacts-info">
+            <pre>+1(240)-413 5766       <a href="mailto: anikk.umd@gmail.com" style="text-decoration:none" >anikk.umd@gmail.com</a></pre>
+            </p>
+
+            <!-- <table style="border: 1px solid black; # border-collapse: collapse;">
+                    <tr >
+                        <th style="border: 1px solid black">anikk.umd@gmail.com</th>
+                        <th style="border: 1px solid black">github.com/anikk94</th>
+                        <th style="border: 1px solid black">linkedin.com/in/anikk94</th>
+                        <th style="border: 1px solid black">+1(240)-413 5766</th>
+                    </tr>
+                </table> -->
+        </div>
+
+        <div class="links-bar">
+            <a href="https://linkedin.com/in/anikk94">
+                <img src="/assets/images/LinkedinLogo-resized.png" alt="Linkedin-logo" width="180px">
+            </a>
+
+            <a
+                href="https://docs.google.com/document/d/1flMjnzFinlhrwaGLbLPCeEJ_9LvhKeUw/edit?usp=drive_link&ouid=105897558271725871500&rtpof=true&sd=true">
+                <img src="/assets/images/cv-resume-resized.png" alt="cv-resume-logo" width="180px">
+            </a>
+
+            <a href="https://github.com/anikk94">
+                <img src="/assets/images/githubLogo-resized.png" alt="github-logo" width="180px">
+            </a>
+        </div>
+
+        <div class="bio">
+            <h2>Bio</h2>
+            <p class="bio-text">
+                I'm Anirudh, a robotics engineer currently working at the
+                National Institute of Standards and Technology (NIST) in
+                Gaithersburg, MD. I work with industrial robots, robot
+                simulations, ROS, digital twins and CRCL to reduce barriers
+                in robot programming and increase robot agility. I also enjoy building home automation
+                sensors, monitoring systems and IoT devices with
+                microcontrollers and machine learning and many other maker
+                things.
+            </p>
+        </div>
+
+        <div class="projects">
+            <h2>
+                <!-- <a style="text-decoration:none" href="/projects.html"> -->
+                Projects
+                <!-- </a> -->
+            </h2>
             
-    </table>
-    <h1>anikk94.github.io</h1>
-    <h1>Bio</h1>
-    <div>
-        <p>
-            <a href="https://linkedin.com/in/anikk94">Linkedin Bio</a>
-        </p>
-    </div>
-    <h3>But in short ...</h3>
-    <p>I'm Anirudh. I am a Master of Robotics, currently working at NIST. I do maker things</p>
-    
-    <h1>Interests</h1>
-    
-    <h1>Projects</h1>
-    <div>
-        <h3>E-bike Conversion</h3>
-        <img src="https://github.com/anikk94/anikk94.github.io/blob/master/assets/images/ebike_on_train_0.2.jpg?raw=true" alt="ebike_on_train" height="300px">
-        <br>
-        <p>I converted my (MTB) bicycle into an e-bike. E-bike conversion kit: Voilamart 1000W rear wheel kit.</p>
-        <p>Kit Specifications</p>
-        <ul>
-            <li>
-                <p><a href="https://www.amazon.com/dp/B08B5PLXBW?psc=1&ref=ppx_yo2ov_dt_b_product_details">Amazon.com listing</a></p>
-                <p>Voilamart Electric Bicycle Kit 26" Rear Wheel 48V 1000W E-Bike Conversion Kit with LCD Display, Cycling Hub Motor with Intelligent Controller and PAS System for Road Bike(Without Battery)</p>
-            </li>
-            <li>brand: Voilamart</li>
-            <li>required read dropout: 135 mm</li>
-            <li>motor
-                <ul>
-                    <li>voltage: 48V</li>
-                    <li>power: 1000W (1250W by built in meter measurement)</li>
-                    <li>current: 26A (as measured by built in meter measurement)</li>
-                </ul>
-            </li>
-            <li>lcd/bike computer: XXX</li>
-            <li>motor controller: </li>
-            <li>wheel Specifications</li>
-            <li>kit components:
-                <ul>
-                    <li>hub motor mounted on wheel with extra duty spokes</li>
-                    <li>pas system</li>
-                    <li>motor controller</li>
-                    <li>engine cut off brakes x2</li>
-                    <li>lcd/bike computer</li>
-                    <li>throttle</li>
-                </ul>
-            </li>
-        </ul>
+            <h3>NIST</h3>
+            <p>Industrial Robot Simulations and Control</p>
+            <p>Agnostic Robot Programming Paradigms</p>
+            <p>6DOF Manipulator Teleoperation</p>
+            
+            <h3>Academic</h3>
+            <!-- s1 -->
+            <p>LQG Controller for 2 Pendulum Cart</p>
+            <p>6DOF KUKA Manipulator Simulation and Control</p>
+            <p>Urban Search and Rescue Robots</p>
+            <!-- s2 -->
+            <p>Highway Traffic Tracking and Speed Detection</p>
+            <p>Vision Based Lane Detection and Prediction</p>
+            <p>Robotic Manufacturing Software System</p>
+            <p>Mobile Robot Path Planning</p>
+            <!-- s3 -->
+            <p>Pattern Recognition Algorithms</p>
+            <p>OCR Character Recognition with Deep Learning</p>
+            <p>Underwater Image Enhancement with Generative Models</p>
+            <!-- s4 -->
+            <p>Autonomous Object Retrival Robot</p>
+            
+            
+            <h3>Personal</h3>
+            <p>eBike Conversion</p>
+            <p>Bike Computer</p>
+            <p>Home Sensor Systems</p>
+            
+                        <h3>3D Printing Design Portfilio</h3>
+                        <p>
+                            <a href="https://www.thingiverse.com/anikk/designs">View on Thingiverse</a>
+                        </p>
+        </div>
         
-        <p>additional part purchases</p>
-        <ul>
-            <li>lithium ion battery pack</li>
-            <li>geared freewheel</li>
-            <li></li>
-        </ul>
-
-        <p>3d prints</p>
-        <ul>
-            <li>bike computer handle bar mount support</li>
-            <li>battery pack mounting system</li>
-            <li></li>
-        </ul>
-    </div>
-    <div>
-        <h3>Bike Computer</h3>
-
-        <img src="https://github.com/anikk94/anikk94.github.io/blob/master/assets/images/bike_odom_1_0.2.jpg?raw=true" alt="bike_odom_1" height="300px">
-        <br>
-        <img src="https://github.com/anikk94/anikk94.github.io/blob/master/assets/images/bike_odom_2_0.2.jpg?raw=true" alt="bike_odom_2" height="300px">
-        <br>
-
-    </div>
-    <div>
-        <h3>Little Mobile Robots</h3>
-    </div>
-    <div>
-        <h3></h3>
-    </div>
-    <h1>My Edu/Career Timeline</h1>
-    <h1>My Work</h1>
-    <div>
-        <p>
-            <h3>current</h3>
-            <ul>
-                <li>working on crcl2ros2 </li>
-                <li>working on ariac 2024</li>
-                <li>working on ariac 2023 promotional video</li>
-                <li>working on android update of lg nexus 4 (7 -> 11)</li>
-            </ul>
-            
-            
-
-
+        <!-- <div>
+            <h2>Interests</h2>
+            <p>
+                <a href="https://luluthecat.in">Lulu The Cat</a>
+            </p>
+        </div> -->
         
-            
-        </p>
+        
+        
+        <div class="technologies">
+            <h2>Technologies I Use</h2>
+            <p>
+                ROS Gazebo GIMP MATLAB SolidWorks
+            </p>
+        </div>
+
     </div>
-    <div>
-        <p>Update: 2024-01-14</p>
+    
+    <div class="footer">
+        <p>Anirudh Krishnan Komaralingam</p>
+        <p>March 2024</p>
     </div>
+
 </body>
+
+
 </html>
