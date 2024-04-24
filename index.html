@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -38,20 +37,20 @@
         <div class="links-bar">
             <div class="links-bar-item">
                 <a href="https://linkedin.com/in/anikk94">
-                    <img src="/assets/images/LinkedinLogo-resized.png" alt="Linkedin-logo" width="180px">
+                    <img src="/assets/images/index/LinkedinLogo-resized.png" alt="Linkedin-logo" width="180px">
                 </a>
 
             </div>
             <div class="links-bar-item">
                 <a
                     href="https://docs.google.com/document/d/1flMjnzFinlhrwaGLbLPCeEJ_9LvhKeUw/edit?usp=drive_link&ouid=105897558271725871500&rtpof=true&sd=true">
-                    <img src="/assets/images/cv-resume-resized.png" alt="cv-resume-logo" width="180px">
+                    <img src="/assets/images/index/cv-resume-resized.png" alt="cv-resume-logo" width="180px">
                 </a>
             </div>
 
             <div class="links-bar-item">
                 <a href="https://github.com/anikk94">
-                    <img src="/assets/images/githubLogo-resized.png" alt="github-logo" width="180px">
+                    <img src="/assets/images/index/githubLogo-resized.png" alt="github-logo" width="180px">
                 </a>
             </div>
         </div>
@@ -82,10 +81,13 @@
                 <!-- <img src="assets/icons/" alt="solidworks"> -->
                 <img src="assets/icons/Git.svg" alt="git" height="64px">
                 <img src="assets/icons/Google Cloud.svg" alt="google-cloud" height="64px">
+                <img src="assets/icons/HTML5.svg" alt="html" height="64px">
+                <img src="assets/icons/CSS3.svg" alt="css" height="64px">
+
             </div>
         </div>
 
-        <div class="projectsTEMP">
+        <div class="projects-main">
             <h2>
                 <!-- <a style="text-decoration:none" href="/projects.html"> -->
                 Projects
@@ -93,76 +95,208 @@
             </h2>
 
             <h3>NIST</h3>
-            <p>Industrial Robot Simulations and Control</p>
-            <p>Agnostic Robot Programming Paradigms</p>
-            <p>6DOF Manipulator Teleoperation</p>
+            <div hidden>
+                <p>Industrial Robot Simulations and Control</p>
+                <p>Agnostic Robot Programming Paradigms</p>
+                <p>6DOF Manipulator Teleoperation</p>
+            </div>
 
-            <h3>Academic</h3>
-            <!-- s1 -->
-            <p>LQG Controller for 2 Pendulum Cart</p>
-            <p>6DOF KUKA Manipulator Simulation and Control</p>
-            <p>Urban Search and Rescue Robots</p>
-            <!-- s2 -->
-            <p>Highway Traffic Tracking and Speed Detection</p>
-            <p>Vision Based Lane Detection and Prediction</p>
-            <p>Robotic Manufacturing Software System</p>
-            <p>Mobile Robot Path Planning</p>
-            <!-- s3 -->
-            <p>Pattern Recognition Algorithms</p>
-            <p>OCR Character Recognition with Deep Learning</p>
-            <p>Underwater Image Enhancement with Generative Models</p>
-            <!-- s4 -->
-            <p>Autonomous Object Retrival Robot</p>
-
-
-            <h3>Personal</h3>
-
-            <section class="projects" id="project__section">
+            <section class="projects-nist" id="project__section">
                 <div class="cards">
-                    <!-- ebike conversion -->
-                    <div class="card" data-aos="fade-up">
-                        <div class="card__cover">
-                            <span>eBike Conversion</span>
-                            <!-- <img src="https://picsum.photos/290/150" alt="Avatar"> -->
-                            <img src="assets/images/ebike_on_train_0.2.jpg" alt="Avatar">
-                        </div>
-                        <!-- <div class="card__content">
-                            <h4><b>eBike Conversion</b></h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi reprehenderit modi
-                                inventore
-                                nisi, excepturi sit.</p>
-                                <button class="cardBtn" type="button">Link here</button>
-                            </div> -->
-                    </div>
-                    <!-- bike computer -->
-                    <div class="card" data-aos="fade-up">
-                        <div class="card__cover">
-                            <span>Bike Computer</span>
-                            <!-- <img src="https://picsum.photos/290/150" alt="Avatar"> -->
-                            <img src="/assets/images/bike_odom_2_0.2.jpg" alt="Avatar">
-                        </div>
-                        <!-- <div class="card__content">
-                                <h4><b>Bike Computer</b></h4>
+                    <!-- Industrial Robot Simulations and Control -->
+                    <div hidden class="card" data-aos="fade-up">
+                        <!-- <a href="pages/projects/nist/ebike-conversion.html"> -->
+                            <div class="card__cover">
+                                <span>Industrial Robot Simulations and Control</span>
+                                <!-- <img src="https://picsum.photos/290/150" alt="Avatar"> -->
+                                <img src="/assets/images/projects/nist/nistsim.png" alt="nist1">
+                            </div>
+                            <!-- <div class="card__content">
+                                <h4><b>Industrial Robot Simulations and Control</b></h4>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi reprehenderit modi
                                     inventore
                                     nisi, excepturi sit.</p>
                                     <button class="cardBtn" type="button">Link here</button>
                                 </div> -->
+                            </a>
+                        </div>
+                    <!-- Agnostic Robot Programming Paradigms -->
+                    <div hidden class="card" data-aos="fade-up">
+                        <a href="pages/projects/nist/bike-computer.html">
+                            <div class="card__cover">
+                                <span>Agnostic Robot Programming Paradigms</span>
+                                <!-- <img src="https://picsum.photos/290/150" alt="Avatar"> -->
+                                <img src="/assets/images/projects/nist/bike_odom_2_0.2.jpg" alt="nist2">
+                            </div>
+                            <!-- <div class="card__content">
+                                <h4><b>Agnostic Robot Programming Paradigms</b></h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi reprehenderit modi
+                                    inventore
+                                    nisi, excepturi sit.</p>
+                                    <button class="cardBtn" type="button">Link here</button>
+                            </div> -->
+                        </a>
+                    </div>
+                    <!-- 6DOF Manipulator Teleoperation -->
+                    <div hidden class="card" data-aos="fade-up">
+                        <a href="pages/projects/nist/home-automation-systems.html">
+                            <div class="card__cover">
+                                <span>6DOF Manipulator Teleoperation</span>
+                                <!-- <img src="https://picsum.photos/290/150" alt="Avatar"> -->
+                                <img src="/assets/images/projects/nist/Ebin_v3.png" alt="nist3">
+                            </div>
+                            <!-- <div class="card__content">
+                                <h4><b>6DOF Manipulator Teleoperation</b></h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi reprehenderit modi
+                                    inventore
+                                    nisi, excepturi sit.</p>
+                                <button class="cardBtn" type="button">Link here</button>
+                            </div> -->
+                        </a>
+                    </div>
+                    <!-- ARIAC 2024 -->
+                    <div class="card" data-aos="fade-up">
+                        <!-- <a href="pages/projects/nist/ariac2024.html"> -->
+                        <a href="#">
+                            <div class="card__cover">
+                                <span>ARIAC 2024</span>
+                                <!-- <img src="https://picsum.photos/290/150" alt="Avatar"> -->
+                                <img src="/assets/images/projects/nist/ariac2024.png" alt="ariac2024">
+                            </div>
+                            <!-- <div class="card__content">
+                                <h4><b>6DOF Manipulator Teleoperation</b></h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi reprehenderit modi
+                                    inventore
+                                    nisi, excepturi sit.</p>
+                                <button class="cardBtn" type="button">Link here</button>
+                            </div> -->
+                        </a>
+                    </div>
+
+
+                </div>
+            </section>
+            
+            <h3>Academic</h3>
+            <div hidden>
+                <!-- s1 -->
+                <p>LQG Controller for 2 Pendulum Cart</p>
+                <p>6DOF KUKA Manipulator Simulation and Control</p><!-- done -->
+                <p>Urban Search and Rescue Robots</p>
+                <!-- s2 -->
+                <p>Highway Traffic Tracking and Speed Detection</p>
+                <p>Vision Based Lane Detection and Prediction</p>
+                <p>Robotic Manufacturing Software System</p>
+                <p>Mobile Robot Path Planning</p>
+                <!-- s3 -->
+                <p>Pattern Recognition Algorithms</p>
+                <p>OCR Character Recognition with Deep Learning</p>
+                <p>Underwater Image Enhancement with Generative Models</p>
+                <!-- s4 -->
+                <p>Autonomous Object Retrival Robot</p>
+            </div>
+            
+            <section class="projects-academic" id="project__section">
+                <div class="cards">
+                    <!-- Industrial Robot Simulations and Control -->
+                    <div class="card" data-aos="fade-up">
+                        <!-- <a href="pages/projects/nist/ebike-conversion.html"> -->
+                        <a href="#">
+                            <div class="card__cover">
+                                <span>Industrial Robot Simulations and Control</span>
+                                <!-- <img src="https://picsum.photos/290/150" alt="Avatar"> -->
+                                <img src="/assets/images/projects/academic/kuka-modeling-control.gif" alt="kuka">
+                            </div>
+                            <!-- <div class="card__content">
+                                <h4><b>Industrial Robot Simulations and Control</b></h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi reprehenderit modi
+                                    inventore
+                                    nisi, excepturi sit.</p>
+                                <button class="cardBtn" type="button">Link here</button>
+                            </div> -->
+                        </a>
+                    </div>
+                    <!-- Lane Detection and Turn Prediction -->
+                    <div class="card" data-aos="fade-up">
+                        <!-- <a href="pages/projects/nist/bike-computer.html"> -->
+                        <a href="#">
+                            <div class="card__cover">
+                                <span>Lane Detection and Turn Prediction</span>
+                                <!-- <img src="https://picsum.photos/290/150" alt="Avatar"> -->
+                                <img src="/assets/images/projects/academic/lane-turn-prediction.gif" alt="nist2">
+                            </div>
+                            <!-- <div class="card__content">
+                                <h4><b>Agnostic Robot Programming Paradigms</b></h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi reprehenderit modi
+                                    inventore
+                                    nisi, excepturi sit.</p>
+                                    <button class="cardBtn" type="button">Link here</button>
+                            </div> -->
+                        </a>
+                    </div>
+                    
+
+
+                </div>
+            </section>
+
+            <h3>Personal</h3>
+
+            <section class="projects-personal" id="project__section">
+                <div class="cards">
+                    <!-- ebike conversion -->
+                    <div class="card" data-aos="fade-up">
+                        <!-- <a href="pages/projects/personal/ebike-conversion.html"> -->
+                        <a href="#">
+                            <div class="card__cover">
+                                <span>eBike Conversion</span>
+                                <!-- <img src="https://picsum.photos/290/150" alt="Avatar"> -->
+                                <img src="/assets/images/projects/personal/ebike_on_train_0.2.jpg" alt="Avatar">
+                            </div>
+                            <!-- <div class="card__content">
+                                <h4><b>eBike Conversion</b></h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi reprehenderit modi
+                                    inventore
+                                    nisi, excepturi sit.</p>
+                                <button class="cardBtn" type="button">Link here</button>
+                            </div> -->
+                        </a>
+                    </div>
+                    <!-- bike computer -->
+                    <div class="card" data-aos="fade-up">
+                        <!-- <a href="pages/projects/personal/bike-computer.html"> -->
+                        <a href="#">
+                            <div class="card__cover">
+                                <span>Bike Computer</span>
+                                <!-- <img src="https://picsum.photos/290/150" alt="Avatar"> -->
+                                <img src="/assets/images/projects/personal/bike_odom_2_0.2.jpg" alt="Avatar">
+                            </div>
+                            <!-- <div class="card__content">
+                                <h4><b>Bike Computer</b></h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi reprehenderit modi
+                                    inventore
+                                    nisi, excepturi sit.</p>
+                                    <button class="cardBtn" type="button">Link here</button>
+                            </div> -->
+                        </a>
                     </div>
                     <!-- home sensor systems -->
                     <div class="card" data-aos="fade-up">
-                        <div class="card__cover">
-                            <span>Home Automation Systems</span>
-                            <!-- <img src="https://picsum.photos/290/150" alt="Avatar"> -->
-                            <img src="/assets/images/Ebin_v3.png" alt="door-sensor">
-                        </div>
-                        <!-- <div class="card__content">
-                            <h4><b>Home Sensor Systems</b></h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi reprehenderit modi
-                                inventore
-                                nisi, excepturi sit.</p>
-                            <button class="cardBtn" type="button">Link here</button>
-                        </div> -->
+                        <!-- <a href="pages/projects/personal/home-automation-systems.html"> -->
+                        <a href="#">
+                            <div class="card__cover">
+                                <span>Home Automation Systems</span>
+                                <!-- <img src="https://picsum.photos/290/150" alt="Avatar"> -->
+                                <img src="/assets/images/projects/personal/Ebin_v3.png" alt="door-sensor">
+                            </div>
+                            <!-- <div class="card__content">
+                                <h4><b>Home Sensor Systems</b></h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi reprehenderit modi
+                                    inventore
+                                    nisi, excepturi sit.</p>
+                                <button class="cardBtn" type="button">Link here</button>
+                            </div> -->
+                        </a>
                     </div>
 
 
@@ -190,9 +324,11 @@
     </div>
 
     <div class="footer">
-        <p>Anirudh Krishnan Komaralingam</p>
-        <p>March 2024</p>
+        <p id="footer-author">Anirudh Krishnan Komaralingam</p>
+        <p id="footer-date">MONTH YEAR</p>
     </div>
+
+    <script src="index.js"></script>
 
 </body>
 

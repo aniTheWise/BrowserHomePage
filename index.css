@@ -72,6 +72,30 @@ body {
   padding: 1.875rem 0;
   background-color: var(--bg-color);
 }
+.projects-nist {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1.875rem 0;
+  background-color: var(--bg-color);
+}
+.projects-academic {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1.875rem 0;
+  background-color: var(--bg-color);
+}
+.projects-personal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1.875rem 0;
+  background-color: var(--bg-color);
+}
 
 .project-heading {
   display: grid;
