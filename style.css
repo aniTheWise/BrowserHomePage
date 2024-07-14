@@ -24,6 +24,10 @@ body {
   /* border-radius: 12px; */
 }
 
+.resume-link img{
+  border-radius: 20px;
+}
+
 .contacts-address {
   font-size: 1em;
 }
